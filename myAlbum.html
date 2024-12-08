@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.9.3/semantic.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Rio Wickham: Website Development Assignment 1</title>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.9.3/semantic.min.js"></script>
+
+    <div id="container">
+        <header>
+            <h1>Assignment 1</h1>
+            <p id="tagline">My Favourite Album</p>
+        </header>
+        <main>
+            <nav class="ui mobile menu">
+                    <a class="item" href="index.html">Introduction</a>
+                    <a class="item" href="who.html">Who Am I?</a>
+                    <a class="item" href="about.html">About this project</a>
+                    <a class="item" href="hobbies.html">My hobbies</a>
+                    <a class="item" href="achievements.html">My Achievements</a>
+                    <a class="active item" href="myAlbum.html">My Favorite Album</a>
+                    <a class="item" href="myMovies.html">My Favorite Movies</a>
+            </nav>
+            <div class="ui container">
+                <header class="ui mobile center aligned segment">
+                    <h2>My Favorite Album</h2>
+                </header>
+                <div class="ui mobile grid">
+                    <div class="five wide column">
+                        <img src="images/AI.png" class="ui image fluid circular" alt="AmericanIdiot">
+                        <h3>Why this is my favorite album?</h3>
+                        <p>American Idiot by Green Day is an album that I have always been a huge fan of, over the last 5/6 years it is an album I have never got sick of and love it.</p>
+                        <button class="ui blue button" onclick="location.href='https://open.spotify.com/album/5dN7F9DV0Qg1XRdIgW8rke?si=335acf6509354d68'">
+                            Spotify Link
+                            <i class="hand pointer icon"></i>
+                        </button>
+                    </div>
+                    <div class="five wide column">
+                        <table class="ui table">
+                            <thead>
+                                <tr>
+                                    <th>Member</th>
+                                    <th>Age</th>
+                                    <th>Role</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Billie Joe Armstrong</td>
+                                    <td>52</td>
+                                    <td>Vocals/Guitar</td>
+                                </tr>
+                                <tr>
+                                    <td>Mike Dint</td>
+                                    <td>52</td>
+                                    <td>Bass</td>
+                                </tr>
+                                <tr>
+                                    <td>Tre Cool</td>
+                                    <td>51</td>
+                                    <td>Drums/Guitar</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="five wide column">
+                        <div class="ui centered link card">
+                            <div class="image">
+                                <img src="images/bja.jpg" alt="Billie">
+                            </div>
+                            <div class="content">
+                                <a class="header">Billie Joe Armstrong</a>
+                                <div class="meta">
+                                    <span class="date">Born 17th of February 1972</span>
+                                </div>
+                                <div class="description">
+                                    Billie Joe Armstrong is the Lead Singer and most well known member of the very famous rock band "Green Day".
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+</body>
+</html>
