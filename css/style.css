@@ -1,0 +1,211 @@
+/* main site design */
+body, html {
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+}
+
+blockquote {
+    font-style: italic;
+    font-weight: bold;
+    border: .15em solid black;
+    background-color: azure;
+    opacity: 80%;
+    overflow: hidden;
+    float: right;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: antiquewhite;
+    line-height: 125%;
+}
+
+body {
+    background-image: url(../images/video-placeholder.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-clip: border-box !important;
+    background-blend-mode: darken !important;
+    background-blend-mode: multiply !important;
+    padding: .5em;
+    background-attachment: fixed;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: x-large;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: .2em;
+    padding-left: .5em;
+    margin: 0;
+}
+
+h2 {
+    padding-top: .5em;
+    color: white;
+    font-size: 150%;
+    font-weight:bold;
+    outline: .2em solid black;
+    text-align: center;
+}
+
+h2 , p {
+    color: black;
+    outline: .15em solid black;
+    opacity: 80%;
+    background-color: azure;
+    overflow: hidden;
+}
+
+h1 ,h2 h3 {
+    font-family: sans-serif;
+}
+
+#tagline {
+    background: bisque;
+    font-style: italic;
+    font-family: sans-serif;
+    border-top: 3px solid beige;
+    border-bottom: 3px solid beige;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    padding-left: .8em;
+    margin: 0;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main {
+    flex:5;
+    padding-left: 2em;
+}
+
+/* Link Styling */
+nav {
+    background-color:palevioletred;
+    flex: 1;
+    outline: .2em solid black;
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav ul li a:link, nav ul li a:visited {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    font-style: italic;
+    color: lightgray;
+}
+
+nav ul li a:active {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+p a:link, a:visited {
+    color: blue;
+}
+
+p a:hover {
+    text-decoration: none;
+}
+
+/* Text Design */
+
+p {
+    color: black;
+    background-color: azure;
+    background-size: cover;
+    font-size: 110%;
+}
+
+#glowing {
+    font-weight: bold;
+    font-style: italic;
+}
+
+img {
+    float: left;
+    margin: 0 0 1em 1em;
+    border: .2em solid black;
+}
+
+p2 {
+    align-self: auto;
+    background-color: azure;
+    font-size: 120%;
+    border: .1em solid black;
+}
+
+figcaption {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 0.15em solid black;
+    opacity: 80%;
+    background-color: azure;
+    overflow:hidden;
+    background-size: 2px;
+}
+
+table {
+    width: 50%;
+    border: 2px solid black;
+    margin: 0.2em;
+    border-collapse: collapse;
+    background-color: azure;
+    opacity: 80%;
+}
+
+caption {
+    background-color: azure;
+    background-size: cover;
+    border: 0.2em solid black;
+}
+
+tr {
+    border: 0.2em solid black;
+}
+
+th {
+    text-align: center;
+    font-style: italic;
+    color: black;
+    padding: 0.2em;
+}
+
+td {
+    padding: 0.2em;
+    border: 0.2em solid black;
+    text-align: center;
+    font-weight: bold;
+}
+
+td:nth-of-type(odd) {
+    background-color: rgb(124, 148, 148);
+}
